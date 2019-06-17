@@ -34,9 +34,9 @@ else
     fi
 fi
 
-if [ "$flash" = true ]; then
+#if [ "$flash" = true ]; then
 #sudo sh -c 'echo "deb http://archive.canonical.com/ubuntu/ trusty partner" >> /etc/apt/sources.list.d/canonical_partner.list'
-fi
+#fi
 #sudo apt-get update
 
 #sudo apt-get install -y firefox htop git python-dev libxml2-dev libxslt-dev libffi-dev libssl-dev build-essential xvfb libboost-python-dev libleveldb-dev libjpeg-dev curl wget
@@ -44,9 +44,9 @@ fi
 # For some versions of ubuntu, the package libleveldb1v5 isn't available. Use libleveldb1 instead.
 #sudo apt-get install -y libleveldb1v5 || sudo apt-get install -y libleveldb1
 
-if [ "$flash" = true ]; then
+#if [ "$flash" = true ]; then
 #sudo apt-get install -y adobe-flashplugin
-fi
+#fi
 
 # Check if we're running on continuous integration
 # Python requirements are already installed by .travis.yml on Travis
