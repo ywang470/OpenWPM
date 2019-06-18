@@ -6,7 +6,7 @@ import os
 import threading
 import time
 
-import psutil
+#import psutil
 from multiprocess import Process, Queue
 from six import reraise
 from six.moves import cPickle as pickle
