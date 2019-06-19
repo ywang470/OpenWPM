@@ -34,8 +34,7 @@ else
     fi
 fi
 
-#if [ "$flash" = true ]; then
-#sudo sh -c 'echo "deb http://archive.canonical.com/ubuntu/ trusty partner" >> /etc/apt/sources.list.d/canonical_partner.list'
+#if [ "$flash" = true ]; then#sudo sh -c 'echo "deb http://archive.canonical.com/ubuntu/ trusty partner" >> /etc/apt/sources.list.d/canonical_partner.list'
 #fi
 #sudo apt-get update
 
